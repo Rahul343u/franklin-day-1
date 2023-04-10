@@ -1,8 +1,4 @@
-import { createOptimizedPicture, fetchPlaceholders, getMetadata } from '../../scripts/lib-franklin.js';
-
-export default async function decorate(block){
-  const placeholders = await fetchPlaceholders('');
-}
+import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
 export default function decorate(block) {
   /* change to ul, li */
